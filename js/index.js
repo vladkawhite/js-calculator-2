@@ -1,6 +1,5 @@
-let buttons = document.querySelectorAll('.input');
-
-let output = document.querySelector('.output');
+let buttons = document.querySelectorAll('.input'),
+output = document.querySelector('.output');
 
 for (let i = 0; i < buttons.length; i++) {
     if (buttons[i].innerHTML === 'C') {
